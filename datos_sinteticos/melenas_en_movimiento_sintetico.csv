@@ -1,0 +1,29 @@
+﻿Nombre,Nacimiento,Municipio,Programa,Mes,Tipo,Servicio,Cantidad,Fecha de movimiento,Rol de registro,Longitud de trenza (cm),Estado del cabello,Estado de peluca,Estado de seguimiento,Estado / origen,Destino de envio,Fuente de movimiento
+Andrea Soto,1985-01-01,Ocosingo,Melenas en Movimiento,2026-01,Donacion de cabello,Validacion de trenza,1,2026-01-01,Donante,32,Limpio y seco,,No aplica,Recibida,,Registro de donacion
+Bruno Vega,1992-05-04,Las Margaritas,Melenas en Movimiento,2026-02,Donacion de cabello,Recepcion de trenza,1,2026-02-08,Donante,39,Un solo tono,,No aplica,Validada,,Registro de donacion
+Camila Rios,1999-09-07,Oxchuc,Melenas en Movimiento,2026-03,Donacion de cabello,Recepcion de trenza,1,2026-03-15,Donante,46,Pendiente de validacion,,No aplica,Requiere contacto,,Registro de donacion
+Daniela Solis,2006-01-10,Tenejapa,Melenas en Movimiento,2026-04,Donacion de cabello,Recepcion de trenza,1,2026-04-22,Donante,53,Limpio y seco,,No aplica,Recibida,,Registro de donacion
+Emilio Lara,2013-05-13,Chenalho,Melenas en Movimiento,2026-05,Donacion de cabello,Validacion de trenza,1,2026-05-02,Donante,35,Un solo tono,,No aplica,Validada,,Registro de donacion
+Fabiola Neri,1990-09-16,Comitan de Dominguez,Melenas en Movimiento,2026-06,Donacion de cabello,Recepcion de trenza,1,2026-06-09,Donante,42,Pendiente de validacion,,No aplica,Requiere contacto,,Registro de donacion
+Gustavo Rojas,1997-01-19,Palenque,Melenas en Movimiento,2026-07,Donacion de cabello,Recepcion de trenza,1,2026-07-16,Donante,49,Limpio y seco,,No aplica,Recibida,,Registro de donacion
+Helena Ponce,2004-05-22,San Juan Chamula,Melenas en Movimiento,2026-08,Donacion de cabello,Recepcion de trenza,1,2026-08-23,Donante,56,Un solo tono,,No aplica,Validada,,Registro de donacion
+Ines Campos,2011-09-25,Ocosingo,Melenas en Movimiento,2026-09,Donacion de cabello,Validacion de trenza,1,2026-09-03,Donante,38,Pendiente de validacion,,No aplica,Requiere contacto,,Registro de donacion
+Jorge Tapia,1988-01-01,Las Margaritas,Melenas en Movimiento,2026-10,Donacion de cabello,Recepcion de trenza,1,2026-10-10,Donante,45,Limpio y seco,,No aplica,Recibida,,Registro de donacion
+Kenia Vidal,1995-05-04,Oxchuc,Melenas en Movimiento,2026-11,Donacion de cabello,Recepcion de trenza,1,2026-11-17,Donante,52,Un solo tono,,No aplica,Validada,,Registro de donacion
+Luis Meza,2002-09-07,Tenejapa,Melenas en Movimiento,2026-01,Donacion de cabello,Recepcion de trenza,1,2026-01-24,Donante,34,Pendiente de validacion,,No aplica,Requiere contacto,,Registro de donacion
+Monica Alba,2009-01-10,Chenalho,Melenas en Movimiento,2026-02,Donacion de cabello,Validacion de trenza,1,2026-02-04,Donante,41,Limpio y seco,,No aplica,Recibida,,Registro de donacion
+Noe Ibarra,1986-05-13,Comitan de Dominguez,Melenas en Movimiento,2026-03,Donacion de cabello,Recepcion de trenza,1,2026-03-11,Donante,48,Un solo tono,,No aplica,Validada,,Registro de donacion
+Olga Leon,1993-09-16,Palenque,Melenas en Movimiento,2026-04,Donacion de cabello,Recepcion de trenza,1,2026-04-18,Donante,55,Pendiente de validacion,,No aplica,Requiere contacto,,Registro de donacion
+Pablo Mora,2000-01-19,San Juan Chamula,Melenas en Movimiento,2026-05,Donacion de cabello,Recepcion de trenza,1,2026-05-25,Donante,37,Limpio y seco,,No aplica,Recibida,,Registro de donacion
+Queta Gil,2007-05-22,Ocosingo,Melenas en Movimiento,2026-06,Donacion de cabello,Validacion de trenza,1,2026-06-05,Donante,44,Un solo tono,,No aplica,Validada,,Registro de donacion
+Ramon Cota,2014-09-25,Las Margaritas,Melenas en Movimiento,2026-07,Donacion de cabello,Recepcion de trenza,1,2026-07-12,Donante,51,Pendiente de validacion,,No aplica,Requiere contacto,,Registro de donacion
+Alicia Paredes,1960-01-01,Tenejapa,Melenas en Movimiento,2026-08,Gestion de peluca,Gestion de peluca,1,2026-08-19,Paciente en seguimiento,,,Solicitud recibida,Activo,Convenio Teletón + EIRA,,Seguimiento de pacientes
+Belen Ochoa,1965-05-04,Chenalho,Melenas en Movimiento,2026-09,Entrega de peluca,Entrega de peluca,1,2026-09-26,Paciente en seguimiento,,,En gestion,Contacto pendiente,Convenio Teletón + EIRA,Oaxaca,Seguimiento de pacientes
+Cecilia Navas,1970-09-07,Comitan de Dominguez,Melenas en Movimiento,2026-10,Gestion de peluca,Gestion de peluca,1,2026-10-06,Paciente en seguimiento,,,Entregada,Cita de seguimiento,Convenio Teletón + EIRA,,Seguimiento de pacientes
+Dora Salgado,1975-01-10,Palenque,Melenas en Movimiento,2026-11,Entrega de peluca,Entrega de peluca,1,2026-11-13,Paciente en seguimiento,,,Solicitud recibida,Activo,Convenio Teletón + EIRA,Jalisco,Seguimiento de pacientes
+Estela Vela,1980-05-13,San Juan Chamula,Melenas en Movimiento,2026-01,Gestion de peluca,Gestion de peluca,1,2026-01-20,Paciente en seguimiento,,,En gestion,Contacto pendiente,Convenio Teletón + EIRA,,Seguimiento de pacientes
+Florencia Cano,1985-09-16,Ocosingo,Melenas en Movimiento,2026-02,Entrega de peluca,Entrega de peluca,1,2026-02-27,Paciente en seguimiento,,,Entregada,Cita de seguimiento,Convenio Teletón + EIRA,Chiapas,Seguimiento de pacientes
+Alicia Paredes,1960-01-01,Tenejapa,Melenas en Movimiento,2026-03,Gestion de peluca,Gestion de peluca,1,2026-03-07,Paciente en seguimiento,,,Solicitud recibida,Activo,Convenio Teletón + EIRA,,Seguimiento de pacientes
+Belen Ochoa,1965-05-04,Chenalho,Melenas en Movimiento,2026-04,Entrega de peluca,Entrega de peluca,1,2026-04-14,Paciente en seguimiento,,,En gestion,Contacto pendiente,Convenio Teletón + EIRA,Oaxaca,Seguimiento de pacientes
+Camila Rios,1999-09-07,Oxchuc,Melenas en Movimiento,2026-03,Donacion de cabello,Recepcion de trenza,1,2026-03-15,Donante,46,Pendiente de validacion,,No aplica,Requiere contacto,,Registro de donacion
+Fabiola Neri,1990-09-16,,Melenas en Movimiento,2026-XX,Donacion de cabello,Recepcion de trenza,1,2026-06-09,Donante,24,Pendiente de validacion,,No aplica,Requiere contacto,,Registro de donacion

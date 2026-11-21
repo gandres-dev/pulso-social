@@ -1,0 +1,8 @@
+# Entornos locales, secretos y editores
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+.DS_Store
+.venv/

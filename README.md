@@ -1,6 +1,5 @@
 # Consolidador de impacto social
-
-Interfaz Streamlit para importar CSV/Excel, armonizar campos de distintas fuentes y comparar la cobertura de Tamizaje Rosa y Melenas en Movimiento.
+Herramienta que reúna datos de diferentes programas y fuentes, facilite su validación y permita a dirección y coordinaciones producir indicadores e informes confiables.
 
 ## Ejecución de manera local
 
@@ -18,9 +17,8 @@ Ingresa a la siguiente página (se sincroniza con todos los cambios que se hagan
 
 [https://impulso-social.streamlit.app/](https://impulso-social.streamlit.app/)
 
-## Uso de la aplicación
-
-Pulsa **Cargar fuentes de demostración** para abrir el Excel maestro de Tamizaje Rosa y el CSV maestro de Melenas en Movimiento. También puedes cargar archivos CSV o Excel propios y revisar el mapeo de columnas en **Preparación de fuentes**.
+## Uso
+Para usar la aplicacion se deben de subir fuentes de información para generar indicadores y resumenes. La aplicación acepta archivos xlsx y csv y se pueden subir varios archivos a la vez.
 
 ## Indicadores y gráficos
 

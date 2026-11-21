@@ -1,4 +1,3 @@
-import hashlib
 import html
 import json
 import re
@@ -264,29 +263,11 @@ def quality_counts(data):
     return flags
 
 
-def render_source_mapping(frames):
-    st.subheader("Preparación de fuentes")
-    st.caption("Mapea los campos comunes. Los demás atributos se conservan en el campo de trazabilidad de cada registro.")
-    maps = {}
-    with st.expander("Ver vista previa y mapeo de campos", expanded=False):
-        tabs = st.tabs(list(frames))
-        for tab, (source, frame) in zip(tabs, frames.items()):
-            with tab:
-                st.dataframe(frame.head(4), use_container_width=True, hide_index=True)
-                maps[source] = {}
-                columns = ["(sin mapear)"] + list(frame.columns)
-                left, right = st.columns(2)
-                for index, (field, label) in enumerate(FIELDS.items()):
-                    default = guess_column(frame.columns, field)
-                    target = left if index % 2 == 0 else right
-                    with target:
-                        maps[source][field] = st.selectbox(
-                            label,
-                            columns,
-                            index=columns.index(default),
-                            key=f"map-{hashlib.md5(source.encode()).hexdigest()[:8]}-{field}",
-                        )
-    return maps
+def default_mappings(frames):
+    return {
+        source: {field: guess_column(frame.columns, field) for field in FIELDS}
+        for source, frame in frames.items()
+    }
 
 
 def add_insight(text, detail=None):
@@ -343,14 +324,15 @@ for index, (name, frame) in enumerate(frames.items()):
     with source_cols[index % len(source_cols)]:
         st.metric(name, f"{len(frame):,} filas")
 
-mappings = render_source_mapping(frames)
+st.caption("Las columnas comunes se reconocen automáticamente por el nombre del encabezado.")
+mappings = default_mappings(frames)
 unmapped_core = []
 for source, mapping in mappings.items():
     for field in ["person_name", "municipality", "program", "period", "activity_type", "service"]:
         if mapping.get(field) == "(sin mapear)":
             unmapped_core.append(f"{source}: {FIELDS[field]}")
 if unmapped_core:
-    st.warning("Completa el mapeo de los campos comunes para analizar todas las fuentes: " + "; ".join(unmapped_core[:5]))
+    st.warning("No pude detectar automáticamente algunos campos comunes. Renombra sus encabezados y vuelve a cargar la fuente: " + "; ".join(unmapped_core[:5]))
 data = prepare_data(frames, mappings)
 if data.empty:
     st.warning("No hay registros para analizar.")

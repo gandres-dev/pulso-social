@@ -4,13 +4,13 @@ Interfaz Streamlit para importar CSV/Excel, armonizar campos de distintas fuente
 
 ## Ejecución de manera local
 
-    # Crear tu propio entorno virtual
+    # Crear entorno virtual
     python3 -m venv .venv
     # Activiar tu entorno
     source .venv/bin/activate
-    # Instalar paqueteria necesarias
+    # Instalar las paqueteria necesarias
     python -m pip install -r requirements.txt
-    # Ejecutar aplicación
+    # Ejecutar la aplicación
     streamlit run app.py
 
 ## Ejecución en la nube

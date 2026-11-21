@@ -2,10 +2,23 @@
 
 Interfaz Streamlit para importar CSV/Excel, armonizar campos de distintas fuentes y comparar la cobertura de Tamizaje Rosa y Melenas en Movimiento.
 
-## Ejecutar
+## Ejecución de manera local
 
+    # Crear tu propio entorno virtual
+    python3 -m venv .venv
+    # Activiar tu entorno
+    source .venv/bin/activate
+    # Instalar paqueteria necesarias
     python -m pip install -r requirements.txt
+    # Ejecutar aplicación
     streamlit run app.py
+
+## Ejecución en la nube
+Ingresa a la siguiente página (se sincroniza con todos los cambios que se hagan en el repositorio):
+
+[https://impulso-social.streamlit.app/](https://impulso-social.streamlit.app/)
+
+## Uso de la aplicación
 
 Pulsa **Cargar fuentes de demostración** para abrir el Excel maestro de Tamizaje Rosa y el CSV maestro de Melenas en Movimiento. También puedes cargar archivos CSV o Excel propios y revisar el mapeo de columnas en **Preparación de fuentes**.
 
